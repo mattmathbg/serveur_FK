@@ -1,0 +1,108 @@
+last_version: 2.24.7
+FkPI:
+  RulesManager:
+    Rules:
+      PlaceBlockInCave:
+        value: false
+        MinimumBlocs: 3
+      NetherCap:
+        value: 1
+      TntCap:
+        value: 6
+      AllowedBlocks:
+        value:
+        - ACACIA_SIGN
+        - ACACIA_WALL_SIGN
+        - BAMBOO_SIGN
+        - BAMBOO_WALL_SIGN
+        - BIRCH_SIGN
+        - BIRCH_WALL_SIGN
+        - CHERRY_SIGN
+        - CHERRY_WALL_SIGN
+        - CRIMSON_SIGN
+        - CRIMSON_WALL_SIGN
+        - DARK_OAK_SIGN
+        - DARK_OAK_WALL_SIGN
+        - FIRE
+        - JUNGLE_SIGN
+        - JUNGLE_WALL_SIGN
+        - MANGROVE_SIGN
+        - MANGROVE_WALL_SIGN
+        - OAK_SIGN
+        - OAK_WALL_SIGN
+        - PALE_OAK_SIGN
+        - PALE_OAK_WALL_SIGN
+        - REDSTONE_TORCH
+        - REDSTONE_WALL_TORCH
+        - SPRUCE_SIGN
+        - SPRUCE_WALL_SIGN
+        - TORCH
+        - WALL_TORCH
+        - WARPED_SIGN
+        - WARPED_WALL_SIGN
+      DeepPause:
+        value: true
+      PvpCap:
+        value: 3
+      DisabledPotions: {}
+      FriendlyFire:
+        value: true
+      CaptureRate:
+        value: 100
+      ChestLimit:
+        value: 20
+      HealthBelowName:
+        value: true
+      NetherAssault:
+        value: false
+      ChargedCreepers:
+        value: 10050001
+      EndCap:
+        value: 1
+      DayDuration:
+        value: 24000
+      PrivateChests:
+        value: false
+      DeathLimit:
+        value: 0
+      BucketAssault:
+        value: false
+      VerticalLimit:
+        value: 40
+      EternalDay:
+        value: false
+      TntJump:
+        value: true
+      GlobalChatPrefix:
+        value: '!'
+      AutoPause:
+        after-day: false
+        after-capture: false
+      BlastProofBase:
+        value: false
+      RespawnAtHome:
+        value: false
+      EnderpearlAssault:
+        value: false
+  TeamManager:
+    nametag-integration:
+      use-main-scoreboard: true
+  LockedChestsManager: {}
+  ChestsRoomsManager:
+    CaptureTime: 60
+    CoreHealth: 500
+    RegenerationPerMinute: 20
+    RegenerationPerMinutePerAlly: 10
+    Offset: 2
+    Enabled: true
+Game:
+  State: BEFORE_STARTING
+  Day: 0
+  Time: 23990
+PlayerManager:
+  Players:
+    Mattmathbg:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+StarterInventoryManager: {}
